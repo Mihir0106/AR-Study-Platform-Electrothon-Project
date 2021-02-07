@@ -132,7 +132,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     {
         if (PhotonNetwork.IsMasterClient)
         {
-            PhotonNetwork.LoadLevel("ARDraw 1");
+            PhotonNetwork.LoadLevel("ARDraw");
         }
 
     }
@@ -173,7 +173,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
 
         roomInfoText.text = "Room Name: " + PhotonNetwork.CurrentRoom.Name + "      " +
-                             "Players/MaxPlayer : " +
+                             "Participants/MaxParticipants : " +
                              PhotonNetwork.CurrentRoom.PlayerCount + "/" +
                              PhotonNetwork.CurrentRoom.MaxPlayers;
 
@@ -236,7 +236,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     public override void OnPlayerLeftRoom(Player otherPlayer)
     {
         roomInfoText.text = "Room Name: " + PhotonNetwork.CurrentRoom.Name + "      " +
-                                "Players/MaxPlayer : " +
+                                "Participants/MaxParticipants : " +
                                 PhotonNetwork.CurrentRoom.PlayerCount + "/" +
                                 PhotonNetwork.CurrentRoom.MaxPlayers;
 

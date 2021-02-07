@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5138435725746242954}
   - component: {fileID: 7816016654350450085}
+  - component: {fileID: -8473582154866000719}
   m_Layer: 0
   m_Name: SpawnHolder
   m_TagString: Untagged
@@ -45,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ObservedComponentsFoldoutOpen: 1
   Group: 0
-  prefixField: -1
+  prefixField: 0
   observableSearch: 2
   Synchronization: 3
   OwnershipTransfer: 0
@@ -53,3 +54,17 @@ MonoBehaviour:
   viewIdField: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &-8473582154866000719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5253530730618510362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1d3a47537100564ebb5a16930b0cfdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnningObject: {fileID: 7891692268892693266, guid: 3aa7b5a3d72787a4e8c8ae16365b77bd,
+    type: 3}

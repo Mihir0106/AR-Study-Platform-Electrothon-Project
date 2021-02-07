@@ -5,17 +5,18 @@ using Photon.Pun;
 
 public class objectSpawn : MonoBehaviourPunCallbacks
 {
-    public GameObject spawnningObject;
-    public GameObject cameraRef;
-    public void spawn()
+    [SerializeField]
+    GameObject spawnningObject;
+   // public GameObject cameraRef;
+    public void spawn()/*GameObject spawningObject)*/
     {
-        photonView.RPC("Spawning", RpcTarget.All);   
+        photonView.RPC("Spawning", RpcTarget.All /*, spawningObject*/);   
     }
 
     [PunRPC]
-    void Spawning()
+    void Spawning()/* GameObject spawnningObject)*/
     {
-        Instantiate(spawnningObject, cameraRef.transform.position + new Vector3(0, 0, 3f), Quaternion.identity);
+        Instantiate(spawnningObject, gameObject.transform.position + new Vector3(0, 0, 3f), Quaternion.identity);
     }
 
 }

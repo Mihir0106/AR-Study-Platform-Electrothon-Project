@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CB947E29-3574-6F56-DEC6-5746A3586FF3}</ProjectGuid>
+    <ProjectGuid>{A8217A9A-F4D6-7ABD-E9B8-4611C02DC472}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -64,6 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ColourChange.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
@@ -297,10 +298,10 @@
       <HintPath>E:/unity editor/2019.4.14f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="Photon3Unity3D">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>E:/unity editor/2019.4.14f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -648,141 +649,141 @@
       <HintPath>E:/unity editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARSubsystems">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARSubsystems.Editor">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARCore">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARFoundation.Editor">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARFoundation">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARCore.Editor">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management.Editor">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/AR-Draw-Dilmer/ARDraw/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/mihir jain/OneDrive/Desktop/New folder/AR-Study-Platform-Electrothon-Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
-      <Project>{20A194CD-966F-4F24-8D82-C707E6719216}</Project>
+      <Project>{DA2C9EFD-C86D-4F63-93DF-18321CC7E7F2}</Project>
       <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
-      <Project>{1A49845E-828A-A444-DDE5-241720EBD54E}</Project>
+      <Project>{8FB12DA6-05E8-EF17-FC12-637D11D700D8}</Project>
       <Name>PunDemos.DemoHubEditor</Name>
     </ProjectReference>
     <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
-      <Project>{A11CA2DC-1ED4-3563-D23F-D9E82561C863}</Project>
+      <Project>{A9FC4295-40D8-ADE6-A4AD-AB866E00E33D}</Project>
       <Name>PunDemos.DemoSlotcarEditor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
-      <Project>{9CC7D4AD-51E9-69CC-0388-F1A1C577BD78}</Project>
+      <Project>{C805C016-5053-AE04-B275-5F358819C101}</Project>
       <Name>PhotonUnityNetworking.Demos</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{63014179-D358-C08B-5E9C-2E4287BE056F}</Project>
+      <Project>{6400A8CC-1B6F-891D-CD5D-AC72C90F9F2F}</Project>
       <Name>PhotonUnityNetworking.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{3441292C-855C-B763-9E2E-43972845AA01}</Project>
+      <Project>{CEFF7016-F3D4-24DD-61C9-B318A41FE230}</Project>
       <Name>PhotonRealtime</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{7277967C-E80C-DCDB-CA67-C1282CC51FA7}</Project>
+      <Project>{9C49D59B-2DC8-4B1B-47E2-F149AB7CA60A}</Project>
       <Name>PhotonUnityNetworking</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonChat.csproj">
-      <Project>{86BE9C0B-6833-BF41-3AA8-D7A64DA89FF4}</Project>
+      <Project>{ED7B3B2C-D498-65D4-570E-3C9807FA0420}</Project>
       <Name>PhotonChat</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
-      <Project>{73FCBF26-0D44-C109-797A-A6687A69A5BB}</Project>
+      <Project>{6A8EF6BB-64C2-FCB3-5827-05050066F76B}</Project>
       <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
-      <Project>{D45786CC-B323-64B8-EE72-5686A9E53B10}</Project>
+      <Project>{53D02824-57C5-0E4A-1174-8B6D6EEE9B78}</Project>
       <Name>PhotonUnityNetworking.Editor</Name>
     </ProjectReference>
   </ItemGroup>

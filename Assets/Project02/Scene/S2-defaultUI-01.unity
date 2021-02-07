@@ -2982,7 +2982,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Start Game
+  m_Text: Start Session
 --- !u!222 &1087094209
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5002,7 +5002,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Leave Game
+  m_Text: Leave Session
 --- !u!222 &2041883038
 CanvasRenderer:
   m_ObjectHideFlags: 0
